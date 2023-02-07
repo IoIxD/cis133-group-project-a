@@ -1,7 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .wrapper {
+    display:flex;
+    flex-direction: column;
+}
+
+.header, .images {
     width: 50rem;
     margin: 0 auto;
     display: block;
+}
+
+.header {
+    text-align: center;
+    opacity: 0.7;
 }
 
 img {
