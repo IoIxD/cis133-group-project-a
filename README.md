@@ -1,3 +1,3 @@
-Gavin P
-Juan R
-Ryan S
+- Gavin P
+- Juan R
+- Ryan S
