@@ -37,7 +37,7 @@ a:visited {
     padding: 5px;
 }
 
-.header, .images {
+.header, .images, .text {
     width: 50rem;
     margin: 0 auto;
     display: block;
