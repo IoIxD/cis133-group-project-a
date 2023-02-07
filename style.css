@@ -1,0 +1,22 @@
+.wrapper {
+    width: 100vw;
+    display: block;
+}
+
+img {
+    min-width: 1px;
+    max-width: 100%;
+}
+
+.vbox, .hbox {
+    display: flex;
+}
+
+.vbox {
+    flex-direction: column;
+    width: 100%;
+}
+
+.hbox {
+    flex-direction: row;
+}
