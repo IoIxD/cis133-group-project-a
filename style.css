@@ -35,10 +35,14 @@ a:visited {
     display:flex;
     flex-direction: column;
     padding: 5px;
+    height: 100%;
+    width: 75rem;
+    display: block;
+    background: rgba(0,0,0,0.1);
+    margin: 0 auto;
 }
 
 .header, .images, .text {
-    width: 50rem;
     margin: 0 auto;
     display: block;
 }
