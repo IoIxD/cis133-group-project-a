@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    align-self: center;
+    background: rgba(92, 217, 255, 0.95);
+}
+
+.two {
+    align-self: center;
+    background: rgb(0, 136, 255);
+}
+.three {
+    background-color: rgb(0, 78, 107);
+}
+.four {
+    background-color: rgba(18, 5, 160, 0.961);
+}
+.five {
+    background-color: rgba(0, 0, 108, 0.952);
+}
+
+/* tools */
+.box {
+    object-fit: fill;
+    border: 10px black;
+    width: 70vh;
+    height: 100vh;
+}
+
+.one.blueFin {
+    position: absolute;
+    bottom: 10vh;
+    left: 10vh;
+    size: 5vh;
+
+}
+
+*.one.orca {
+    position: absolute;
+    top: 16px;
+    right: 0px;
+}
+.one.duck {
+    position: relative;
+    top: 70vh;
+}
+
+.two.lancet {
+    object-fit: fill;
+    float: left;
+    right: 100px;
+
+}
+
+.two.box.lantern {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.three.unicrest {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+/*head containers*/
+.headcontainer {
+    font-family: sans-serif;
+    object-position: center;
+}
+.darkheader {
+    color: white;
+}
