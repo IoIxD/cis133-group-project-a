@@ -98,21 +98,21 @@ ul li {
     right: 600px;
 }
 .castel {
-    border: solid white 4px;
+    border: solid white 8px;
     scale: 75%;
     position: absolute;
     top: 3075px;
     right: 600px;
 }
 .japan {
-    border: solid white 4px;
+    border: solid white 8px;
     scale: 70%;
     position: absolute;
     top: 2400px;
     right: 0px;
 }
 .nyc {
-    border: solid white 4px;
+    border: solid white 8px;
     scale: 50%;
     position: absolute;
     top: 2450px;
