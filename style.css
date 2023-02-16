@@ -20,6 +20,7 @@
 
 html {
     zoom: 90%; /* zoom your page to 90% */
+    height: 100%;
 }
 
 :root {
@@ -29,6 +30,7 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     animation: blurin 1s linear;
+    height: 100%;
 }
 
 a {
@@ -43,7 +45,6 @@ a:visited {
     display:flex;
     flex-direction: column;
     padding: 5px;
-    height: 100%;
     font-size: 1vw;
     width: 75rem;
     display: block;
